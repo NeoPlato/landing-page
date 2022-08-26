@@ -82,3 +82,21 @@ body {
     border: 2px double midnightblue;
     border-radius: 15px
 }
+
+.quote-area {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-area p {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.quote-area span {
+    text-align: right;
+}
