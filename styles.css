@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    padding: 20px 120px 60px 80px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.top-section ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.top-section a {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+.container {
+    display: flex;
+    justify-content: space-between
+}
+
+.container .text {
+    max-width: 500px;
+}
+
+.container button {
+    width: fit-content;
+}
+
+.container #image {
+    width: 480px;
+    height: 270px;
+    background-color: #fff9;
+}
