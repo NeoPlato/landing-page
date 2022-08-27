@@ -15,6 +15,12 @@ body {
     color: #F9FAF8;
 }
 
+.container .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
 .top-section {
     display: flex;
     justify-content: space-between;
@@ -31,8 +37,10 @@ body {
     gap: 16px;
 }
 
-.top-section a {
+.top-section a, .container .text p {
     text-decoration: none;
+    font-size: 18px;
+    font-weight: initial;
     color: #E5E7EB
 }
 
@@ -45,10 +53,6 @@ body {
     max-width: 500px;
 }
 
-.header .container button {
-    width: fit-content;
-}
-
 .header .container #image {
     width: 480px;
     height: 270px;
@@ -59,6 +63,9 @@ body {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .image-array {
@@ -88,6 +95,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-size: 36px;
 }
 
 .quote-area p {
@@ -95,20 +103,50 @@ body {
     display: flex;
     flex-direction: column;
     margin: 100px;
+    font-style: italic;
 }
 
 .quote-area span {
     text-align: right;
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+    font-size: 24px;
 }
 
 .action-area {
     background-color: #3882F6;
-    margin: 100px;
+    max-width: 800px;
+    margin: 100px auto;
     padding: 50px 120px;
     border-radius: 15px;
     display: flex;
+    color: #FAF9F8;
+}
+
+.action-area .words {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-area .words span {
+    font-size: 16px;
+    font-weight: initial;
 }
 
 .action-area button {
     margin-left: auto;
+    background-color: #3882F6;
+    border: solid #F9FAF8 2px;
+    border-radius: 4px;
+    padding: 0 28px;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
