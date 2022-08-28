@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 body {
     margin: 0;
+    font-family: "'Segoe UI', Tahoma, system-ui, sans-serif";
 }
 
 .header, .footer {
