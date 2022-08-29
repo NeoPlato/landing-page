@@ -59,7 +59,11 @@ body {
 .header .container #image {
     width: 480px;
     height: 270px;
-    background-color: #fff9;
+    background-color: #7c7c7c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .display .title {
