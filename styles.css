@@ -16,6 +16,10 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    max-width: 200px;
+    background: #838b93;
+    padding: 8px;
+    border-radius: 28px;
 }
 
 .container .text {
