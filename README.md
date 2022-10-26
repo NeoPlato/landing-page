@@ -3,11 +3,10 @@ A landing page, prescribed by [the Odin Project](https://www.theodinproject.com/
 
 ### CONTENT
 
-Only pretty links and buttons that do nothing and go nowhere
+Only pretty links and buttons that do nothing and go nowhere. [Available here.](https://neoplato.github.io/landing-page/)
 
 ### Skill level
 
 *    [x]  Create the basic HTML layout.
-*    [ ]  Make it pretty with CSS.
-*    [ ]  Modify the existing solution to match my own creative style.
-*    [ ]  Find a creative style before point 3.
+*    [x]  Make it pretty with CSS.
+*    [x]  Give up on creative styling and be happy with what's there.
